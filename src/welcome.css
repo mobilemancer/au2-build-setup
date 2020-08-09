@@ -1,0 +1,10 @@
+.page {
+  height: 80vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  margin: auto;
+}
