@@ -117,8 +117,8 @@ function buildCss(src) {
     .pipe(
       // add PurgeCSS to remove unused CSS
       purgecss({
-        content: ["src/**/*.html"],
-        whitelist: ["goto-active", "body"],
+        content: ["src/**/*.html", "_index.html"],
+        whitelist: ["goto-active"],
       })
     )
     .pipe(
